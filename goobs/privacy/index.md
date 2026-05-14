@@ -1,114 +1,135 @@
 ---
 layout: default
-title: GOOBS Privacy Policy
+title: Privacy Policy for GOOBS
 ---
 
-# GOOBS Privacy Policy
+# Privacy Policy for GOOBS
 
-Last updated: [DATE TO BE FILLED ON LAUNCH]
+Effective Date: [Effective Launch Date — fill in on Play Store submission day]
 
-GOOBS is a mobile game developed by Jónþór Hill ("we", "us", "the developer") in Iceland. This Privacy Policy describes what data GOOBS collects, how we use it, and your rights regarding that data.
+Last Updated: May 14, 2026
 
-## 1. Information We Collect
+This Privacy Policy explains how Jónþór Hill Jakobsson ("we", "us", "our") collects, uses, and protects information when you use the GOOBS mobile application ("the App"). By using GOOBS, you agree to the practices described in this policy.
 
-### 1.1 Information You Provide
+## 1. Who We Are
 
-Username (optional). The first time you launch GOOBS, you may choose to enter a username (3–16 characters). This username appears on public leaderboards. You can skip this step and play without a username, in which case nothing about you appears on leaderboards.
+GOOBS is developed by Jónþór Hill Jakobsson, an individual developer based in Iceland. For all privacy-related questions or requests, contact: support@jonthordev.com
 
-We do not collect your real name, email address, phone number, address, or date of birth.
+## 2. Information We Collect
 
-### 1.2 Information Collected Automatically
+We only collect data needed to run the App and the services it integrates with. The following data is collected:
 
-Anonymous identifier. When you first connect to our leaderboard service, Google's Firebase Authentication assigns your device an anonymous identifier (a randomly generated UUID called a "local_id"). This identifier is not linked to your name, email, Google account, or Apple ID. It exists solely to associate your gameplay scores with your device for leaderboard purposes.
+**Device identifiers**
 
-The anonymous identifier is reset if you uninstall the app or wipe your device.
+- Android Advertising ID (used by Google AdMob to serve ads)
+- Firebase Installation ID (anonymous identifier used by Firebase Analytics)
 
-Gameplay data sent to leaderboards. When your run ends, if you have set a username and your run meets a minimum threshold (score above 100 or distance above 50 meters), the following information is sent to our leaderboard service:
+**App usage data**
 
-- Your username
-- Your score
-- Distance traveled in the run (in meters)
-- Number of revives used in the run
-- Run duration (in milliseconds)
-- Submission timestamp
-- Your anonymous identifier
+- Game events (sessions started, screens viewed, in-app actions)
+- Performance and diagnostic data (crashes, app launches, session length)
 
-Locally stored game data (not transmitted). Your gameplay progress (currency, owned cosmetics, achievement unlocks, daily login streak, run statistics, audio/control settings) is stored only on your device. It is not transmitted to us or any third party.
+**User-provided content**
 
-## 2. Information We Do Not Collect
+- The nickname you choose if you submit a score to the leaderboard. Nicknames are visible to other players on the leaderboard.
 
-GOOBS does not collect, transmit, or store:
+**Purchase information**
 
-- Real names, email addresses, phone numbers, or postal addresses
-- Photos, contacts, microphone audio, or camera input
-- Precise or coarse location
-- Device identifiers beyond the anonymous Firebase identifier (no IDFA, GAID, IMEI, MAC address, or device fingerprint)
-- Crash reports or analytics events
-- Browsing history or app usage outside GOOBS
+- When you make an in-app purchase, Google Play Billing handles the transaction. We do not see or store your payment details. We only receive confirmation that a purchase succeeded.
 
-## 3. How We Use Your Information
+We do not collect: your name, email address, phone number, real-world location, contacts, photos, files, messages, browsing history, financial account details, or health data.
 
-We use the information described above only to:
+## 3. Third-Party Services We Use
 
-- Display public leaderboards (rank, username, score, distance) within the game
-- Allow you to compete in weekly leaderboard challenges
-- Award in-game rewards based on weekly leaderboard results
+GOOBS integrates the following services, each with their own privacy practices:
 
-## 4. Third-Party Services
+**Google AdMob** — serves banner ads, rewarded ads (your choice), and occasional interstitial ads. Uses your Android Advertising ID for ad relevance.
+Privacy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-GOOBS uses the following third-party services:
+**Google Firebase (Analytics)** — measures how the App is used so we can improve it.
+Privacy: [https://firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
 
-Firebase Authentication and Cloud Firestore (Google LLC). Used to host the leaderboard service. Data is processed on Google Cloud servers, primarily in the United States. Google's handling of this data is governed by the [Google Cloud Privacy Notice](https://cloud.google.com/terms/cloud-privacy-notice).
+**Google Firebase (Firestore)** — stores the leaderboard nickname and score you submit.
+Privacy: [https://firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
 
-### Future third-party services (not yet integrated)
+**Google Play Billing** — processes in-app purchases.
+Privacy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-The following services are planned for integration before public launch. This policy will be updated when they are integrated:
+All data is transmitted over HTTPS/TLS.
 
-- Google Play Billing (Android in-app purchases) — handles purchase transactions for in-app currency and cosmetic items.
-- Apple StoreKit (iOS in-app purchases) — same purpose, on iOS.
-- An advertising SDK (provider TBD, likely Google AdMob) — will display rewarded video advertisements. Advertising SDKs typically collect a device advertising identifier (IDFA on iOS, Google Advertising ID on Android), IP address, and ad interaction data.
+## 4. How We Use This Information
 
-## 5. Children
+We use the data we collect to:
 
-GOOBS is a general-audience game. We do not knowingly collect personal information from children under 13 (or the equivalent minimum age in your jurisdiction). The game does not require an account, email address, or any identifying information to play. The optional username field is moderated client-side to filter offensive language.
+- Operate the App and its leaderboard
+- Show ads (including rewarded ads at your choice)
+- Process in-app purchases
+- Understand how the App is used so we can fix bugs and improve features
+- Maintain the security and integrity of the App
 
-If you believe a child has provided us with personal information through GOOBS, contact us at the address below and we will delete it.
+We do not sell your data to third parties. We do not use your data for any purpose not described in this policy.
+
+## 5. Children's Privacy
+
+GOOBS is rated for ages 13+ and is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with information, contact support@jonthordev.com and we will delete it.
 
 ## 6. Your Rights
 
-Depending on where you live, you may have the right to:
+Depending on where you live, you may have the following rights regarding your data:
 
-- Access the data we hold about you (limited to your username and anonymous leaderboard entries)
-- Delete your data (we can remove your leaderboard entries on request)
-- Object to processing of your data
-- Withdraw consent for data collection (achieved by uninstalling the app, which severs the anonymous identifier link)
+**If you are in the European Economic Area, the UK, or another jurisdiction with similar laws (GDPR / UK-GDPR):**
 
-To exercise any of these rights, contact us at privacy@jonthordev.com. We will respond within 30 days.
+- Right to access the data we hold about you
+- Right to correct inaccurate data
+- Right to request deletion of your data
+- Right to object to processing
+- Right to data portability
+- Right to lodge a complaint with your local data protection authority
 
-For users in the European Economic Area (EEA), the United Kingdom, or California, additional rights may apply under GDPR, UK GDPR, or CCPA respectively. Contact us using the email above to exercise these rights.
+**If you are a California resident (CCPA):**
 
-## 7. Data Retention
+- Right to know what personal information is collected
+- Right to request deletion of personal information
+- Right to opt out of the sale of personal information (we do not sell your data)
+- Right to non-discrimination for exercising your rights
 
-- Leaderboard entries are retained indefinitely while the leaderboard service is operational. You may request deletion at any time.
-- Local data on your device persists until you uninstall the app or wipe your device.
-- Anonymous identifiers are tied to leaderboard entries and persist as long as the entries persist.
+To exercise any of these rights, email support@jonthordev.com with your request. Because the leaderboard nickname is the only directly identifying piece of data we hold, please include the nickname you used so we can locate your data.
 
-## 8. Data Security
+## 7. How to Request Data Deletion
 
-We use Google Firebase's standard security infrastructure for data in transit and at rest. While no system is fully secure, we have not implemented any custom servers or storage that could be independently breached.
+To request deletion of your data:
 
-## 9. Changes to This Policy
+1. Email support@jonthordev.com with the subject line "Data Deletion Request"
+2. Include the leaderboard nickname you used (if applicable) so we can locate your entry
+3. We will delete your leaderboard entry within 30 days and confirm by email
+4. Data held by third-party services (AdMob, Firebase Analytics) can be managed through their own settings. To reset your Android Advertising ID, go to Settings > Google > Ads on your device.
 
-We may update this Privacy Policy from time to time. The "Last updated" date at the top will reflect any changes. Material changes will be communicated through the game (such as a one-time notice on next launch) where feasible.
+We do not currently offer an in-app deletion button. We respond to email requests within 30 days as required by GDPR.
 
-## 10. Contact
+## 8. Data Retention
 
-For privacy-related questions or to exercise your rights, contact:
+- Leaderboard nicknames and scores: retained until you request deletion, or until we discontinue the leaderboard service
+- Analytics data: retained per Firebase's default retention policies (up to 14 months)
+- Advertising data: managed by Google AdMob per their retention policies
 
-Jónþór Hill
-Email: privacy@jonthordev.com
-Location: Iceland
+## 9. Security
 
----
+We use HTTPS/TLS to encrypt all data in transit between the App and our services. Third-party services we use (Google AdMob, Firebase, Play Billing) maintain industry-standard security practices.
 
-This privacy policy is provided in plain language. If any provision is unclear, contact us at the email above.
+No method of data transmission or storage is 100% secure. We do our best to protect your data but cannot guarantee absolute security.
+
+## 10. Changes to This Policy
+
+We may update this Privacy Policy from time to time. The "Last Updated" date at the top will reflect the most recent revision. Material changes will be communicated through the App or via the Play Store listing.
+
+## 11. Governing Law
+
+This Privacy Policy is governed by the laws of Iceland. Any disputes arising under this policy will be resolved in Icelandic courts, except where local consumer protection laws give you the right to use your local courts.
+
+## 12. Contact
+
+For any questions, requests, or concerns about this policy or how we handle your data:
+
+Email: support@jonthordev.com
+
+Website: [https://jonthordev.com](https://jonthordev.com)
